@@ -1,4 +1,3 @@
-#include "Student.h"
 #include <sstream> // for ostringstream
 
 Student::Student(int p, string lName, string fName) {

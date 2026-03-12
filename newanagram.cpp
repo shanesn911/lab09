@@ -10,7 +10,6 @@
 using namespace std;
 
 #include "headers.h"
-#include "functions.cpp"
 
 int main() {
     // 1. Declare 2 objects of AString,
