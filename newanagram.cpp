@@ -8,7 +8,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+#include "functions.cpp"
 #include "headers.h"
 
 int main() {

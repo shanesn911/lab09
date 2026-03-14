@@ -4,7 +4,6 @@
 #include <iostream>
 #include <string>
 #include <cctype>
-#include "headers.h"
 
 using namespace std;
 
