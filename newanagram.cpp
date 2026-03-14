@@ -8,8 +8,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#include "functions.cpp"
 #include "headers.h"
+#include "functions.cpp"
+
 
 int main() {
     //1. declare 2 objects of AString,
