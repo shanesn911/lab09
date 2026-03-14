@@ -43,7 +43,6 @@ void AString::countLetters(int counts[26]) {
 void AString::getAString() {
     string input;
     cout << "Enter string value: ";
-    cin.ignore();
     getline(cin, input);
     StringValue = input;
 }
