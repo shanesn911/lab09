@@ -1,31 +1,32 @@
-// file: headers.h for newanagrams
+//headers.h for newanagrams
 #include <string>
 using namespace std;
 
 class AString {
 private:
+    //private member variable
     string StringValue;
 
 public:
-    // Initializes StringValue to an empty string 
+    //initializes StringValue to an empty string
     AString();
-    
-    // Initializes StringValue with a specific string 
+
+    //initializes StringValue with a specific string
     AString(string s);
 
-    // Returns the value of the member variable 
+    //returns the value of the member variable
     string getStringValue();
 
-    // Removes non-alphabetic characters and converts to lowercase 
-    void cleanup();
+    //removes non-alphabetic characters and converts to lowercase
+    void cleanUp();
 
-    // Counts the frequency of letters 'a' through 'z' 
+    //counts the frequency of letters 'a' through 'z'
     void countLetters(int counts[26]);
 
-    // Prompts user for input, allowing for spaces 
+    //prompts user for input, allowing for spaces
     void getAString();
 };
 
-// DO NOTE CHANGE THESE AND DO NOT ADD TO THEM!
+//DO NOT CHANGE THESE AND DO NOT ADD TO THEM!
 bool compareCounts(int a[], int b[]);
 const int ARRAYSIZE = 26;
